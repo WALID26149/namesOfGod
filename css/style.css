@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* style the scrolle bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(46, 83, 120, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #009879;
+    border: 1.5px solid #fff;
+}
+/* lazy load */
+.section-hidden{
+  opacity: 1;
+  transition: 0.4s;
+  transform: translateY(3rem);
+}
+.colorTd{
+  color: mediumvioletred
+}
+.container{
+  width: 35rem;
+  height: 100%;
+  background-color: #f4f5fe;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 5px;
+  margin:2% auto;
+}
+/* header section of the tabel */
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: em;
+    min-width: 560px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    /* color: #009879; */
+}
+/* style the scrolle btn */
+.scrolleBtn{
+  display: flex;
+  justify-content: flex-end;
+}
+.btn{
+  position: relative;
+  top: 95px;
+  right: 20px;
+  font-size: 20px;
+  border: 0.5px solid #ccc;
+  border-radius: 30%;
+  background-color: #fff;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  cursor: pointer;
+}
+/* the footer section */
+footer p{
+  color: grey;
+  text-align: center;
+  padding-bottom: 5px
+}
+footer .social {
+  text-align:center;
+  padding-bottom:20px;
+}
+
+footer .social > a {
+  color: #000;
+  font-size:28px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  margin:0 8px;
+}
