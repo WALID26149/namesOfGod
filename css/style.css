@@ -4,6 +4,7 @@ body{
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
   box-sizing: border-box;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 /* style the scrolle bar */
 ::-webkit-scrollbar {
@@ -43,12 +44,11 @@ body::-webkit-scrollbar-thumb {
 }
 /* header section of the tabel */
 .content-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: em;
-    min-width: 560px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
 }
 
 .content-table thead tr {
@@ -118,4 +118,11 @@ footer .social > a {
   text-align:center;
   border-radius:50%;
   margin:0 8px;
+}
+/* make the it responsive */
+@media (max-width:600px) {
+  .container{
+    margin: 10px;
+    width: 31rem
+  }
 }
