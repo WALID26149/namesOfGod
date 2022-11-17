@@ -24,6 +24,12 @@ body::-webkit-scrollbar-thumb {
     background-color: #009879;
     border: 1.5px solid #fff;
 }
+h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 90px;
+  margin: 15px 0;
+}
 /* lazy load */
 .section-hidden{
   opacity: 1;
