@@ -7,7 +7,7 @@ app.set("view engine", "ejs")
 app.use(bodyParser.urlencoded({
   extended: true
 }));
-
+app.use(favicon(path.join(__dirname, 'public', 'icon-islam-png')));
 app.get('/', function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
