@@ -104,7 +104,7 @@ h1{
   cursor: pointer;
 }
 /* the footer section */
-footer p{
+.copyRight{
   color: grey;
   text-align: center;
   padding-bottom: 5px
