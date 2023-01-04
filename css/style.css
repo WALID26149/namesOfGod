@@ -93,7 +93,7 @@ h1{
 }
 .btn{
   position: relative;
-  top: 95px;
+  top: 80px;
   right: 20px;
   font-size: 20px;
   border: 0.5px solid #ccc;
@@ -107,7 +107,7 @@ h1{
 .copyRight{
   color: grey;
   text-align: center;
-  padding-bottom: 5px
+  padding-bottom: 25px
 }
 footer .social {
   text-align:center;
