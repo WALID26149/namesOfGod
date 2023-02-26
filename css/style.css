@@ -132,3 +132,11 @@ footer .social > a {
     width: 31rem
   }
 }
+@media (min-width:320px) and (max-width:480px) {
+  body{
+    width: 56vh
+  }
+  .container{
+    margin: 10px
+  }
+}

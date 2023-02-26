@@ -1,9 +1,9 @@
 const btn = document.querySelector('.btn');
-const headTable = document.querySelector('thead');
+const head = document.querySelector('body');
 
 // make the btn scrolle to the top
 btn.addEventListener('click', function (e) {
-  const s1coords = headTable.getBoundingClientRect();
+  const s1coords = head.getBoundingClientRect();
   window.scrollTo({
     left: s1coords.left + window.pageXOffset,
     top: s1coords.top + window.pageYOffset,
